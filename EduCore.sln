@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{197623EB-42F9-4581-AB8D-78A55A017F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Frontend.Web", "frontend\EduCore.Frontend.Web\EduCore.Frontend.Web.csproj", "{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9973383D-584A-4A9C-9435-76070C64023C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{229B8D08-1812-4733-A864-B809AEF67BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.API", "backend\src\EduCore.Backend.API\EduCore.Backend.API.csproj", "{293B75E1-191B-A3B5-B351-477DB13063E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.Application", "backend\src\EduCore.Backend.Application\EduCore.Backend.Application.csproj", "{66AC4C9D-D8E8-D822-A15F-A09A192C9B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.Domain", "backend\src\EduCore.Backend.Domain\EduCore.Backend.Domain.csproj", "{E802CBD5-B11C-4EEC-A86F-0627E53DB393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.Infrastructure", "backend\src\EduCore.Backend.Infrastructure\EduCore.Backend.Infrastructure.csproj", "{DA996E14-E8E6-3888-3171-6FD2AB51E412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.SharedKernel", "backend\src\EduCore.Backend.SharedKernel\EduCore.Backend.SharedKernel.csproj", "{37D3CD57-2284-EB3F-103C-CA28692C1543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCore.Backend.Application.Tests", "backend\tests\EduCore.Backend.Application.Tests\EduCore.Backend.Application.Tests.csproj", "{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293B75E1-191B-A3B5-B351-477DB13063E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293B75E1-191B-A3B5-B351-477DB13063E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293B75E1-191B-A3B5-B351-477DB13063E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293B75E1-191B-A3B5-B351-477DB13063E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AC4C9D-D8E8-D822-A15F-A09A192C9B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AC4C9D-D8E8-D822-A15F-A09A192C9B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AC4C9D-D8E8-D822-A15F-A09A192C9B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AC4C9D-D8E8-D822-A15F-A09A192C9B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E802CBD5-B11C-4EEC-A86F-0627E53DB393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E802CBD5-B11C-4EEC-A86F-0627E53DB393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E802CBD5-B11C-4EEC-A86F-0627E53DB393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E802CBD5-B11C-4EEC-A86F-0627E53DB393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA996E14-E8E6-3888-3171-6FD2AB51E412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA996E14-E8E6-3888-3171-6FD2AB51E412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA996E14-E8E6-3888-3171-6FD2AB51E412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA996E14-E8E6-3888-3171-6FD2AB51E412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D3CD57-2284-EB3F-103C-CA28692C1543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D3CD57-2284-EB3F-103C-CA28692C1543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D3CD57-2284-EB3F-103C-CA28692C1543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D3CD57-2284-EB3F-103C-CA28692C1543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EBD3671-402F-34E3-D2B3-0ADC0F98BA84} = {197623EB-42F9-4581-AB8D-78A55A017F43}
+		{9973383D-584A-4A9C-9435-76070C64023C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{229B8D08-1812-4733-A864-B809AEF67BF0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{293B75E1-191B-A3B5-B351-477DB13063E3} = {9973383D-584A-4A9C-9435-76070C64023C}
+		{66AC4C9D-D8E8-D822-A15F-A09A192C9B65} = {9973383D-584A-4A9C-9435-76070C64023C}
+		{E802CBD5-B11C-4EEC-A86F-0627E53DB393} = {9973383D-584A-4A9C-9435-76070C64023C}
+		{DA996E14-E8E6-3888-3171-6FD2AB51E412} = {9973383D-584A-4A9C-9435-76070C64023C}
+		{37D3CD57-2284-EB3F-103C-CA28692C1543} = {9973383D-584A-4A9C-9435-76070C64023C}
+		{97E1E4E4-E2E5-FB7C-E51A-0558FD4009E0} = {229B8D08-1812-4733-A864-B809AEF67BF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF6314F6-A37E-49DB-9B97-600C2135C4C5}
+	EndGlobalSection
+EndGlobal

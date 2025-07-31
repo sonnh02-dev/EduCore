@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>EduCore.BackEnd.Application</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Interfaces\Payments\**" />
+	  <EmbeddedResource Remove="Interfaces\Payments\**" />
+	  <None Remove="Interfaces\Payments\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EduCore.Backend.Domain\EduCore.Backend.Domain.csproj" />
+	  <ProjectReference Include="..\EduCore.Backend.SharedKernel\EduCore.Backend.SharedKernel.csproj" />
+	</ItemGroup>
+
+
+
+</Project>

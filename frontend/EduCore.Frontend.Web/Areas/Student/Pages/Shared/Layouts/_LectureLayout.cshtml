@@ -1,0 +1,55 @@
+﻿
+@* @{ *@
+@*     Layout = "./_Layout.cshtml"; *@
+
+@*     string userJson = HttpContextAccessor.HttpContext.Request.Cookies["User"] ??                     *@
+@*                       HttpContextAccessor.HttpContext?.Session?.GetString("User"); *@
+@*     UserDTO? student = !string.IsNullOrEmpty(userJson) ? JsonConvert.DeserializeObject<UserDTO>(userJson) : null; *@
+
+@* } *@
+@* @model EduCore.Frontend.Web.Areas.Student.Pages.Lectures.DetailsModel *@
+@* <!DOCTYPE html> *@
+
+@* <html> *@
+
+@* <head> *@
+@*     <meta name="viewport" content="width=device-width" /> *@
+@*     <title>@ViewBag.Title</title> *@
+@* </head> *@
+
+@* <body> *@
+@*     <div class="row container-fluid col-md-12 mt-5"> *@
+@*         <h6> *@
+@*             <span><a href="~/Student"><i class="bi bi-house"></i></a></span> *@
+@*             <span><a href="~/Student/Course/List">Course</a></span> *@
+@*             <span><a href="~/Student/Course/Detail?cId=@Model.CourseId">@Model.CourseTitle</a></span> *@
+@*             <span>@Model.Lecture.Title</span> *@
+@*         </h6> *@
+@*         <div class="col-md-7"> *@
+@*             @RenderBody() *@
+@*         </div> *@
+@*         <div class="col-md-5" style="max-height: 600px; overflow-y: auto;overflow-x:hidden"> *@
+@*             <nav> *@
+@*                 <div class="nav nav-tabs mb-3"> *@
+@*                     <button class="nav-link @(Model.AddedComment==null && Model.RepliedComment==null ?"active": "" ) border-white border-bottom-0" type="button" role="tab" *@
+@*                             id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#section_list" aria-controls="nav-about" *@
+@*                             aria-selected="@(Model.AddedComment==null && Model.RepliedComment==null ? "true" : "false")"> *@
+@*                         Content *@
+@*                     </button> *@
+
+@*                     <button class="nav-link border-white border-bottom-0" type="button" role="tab" id="nav-exercise-tab" *@
+@*                             data-bs-toggle="tab" data-bs-target="#excercises" aria-selected="false" *@
+@*                             aria-controls="excercises"> *@
+@*                         Exercise *@
+@*                     </button> *@
+
+@*                     <button class="nav-link @(Model.AddedComment!=null || Model.RepliedComment!=null ? "active" : "") border-white border-bottom-0" type="button" role="tab" *@
+@*                             id="nav-comment-tab" data-bs-toggle="tab" data-bs-target="#comment" *@
+@*                             aria-selected="@(Model.AddedComment!=null || Model.RepliedComment!=null ?  "true" : "false")" *@
+@*                             aria-controls="comment"> *@
+@*                         Comment *@
+@*                     </button> *@
+@*                 </div> *@
+@*             </nav> *@
+
+@* </html> *@

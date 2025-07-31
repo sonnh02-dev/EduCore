@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <RootNamespace>EduCore.Frontend.Web</RootNamespace>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Instructor\Pages\Profile\" />
+    <Folder Include="Areas\Admin\Pages\Courses\" />
+    <Folder Include="Areas\Admin\Pages\Shared\Components\" />
+    <Folder Include="Areas\Admin\Pages\Shared\Partials\" />
+    <Folder Include="Areas\Student\Pages\Payments\" />
+    <Folder Include="Pages\Shared\Components\" />
+    <Folder Include="Pages\Shared\Layouts\" />
+    <Folder Include="Pages\Shared\Partials\" />
+  </ItemGroup>
+
+</Project>
