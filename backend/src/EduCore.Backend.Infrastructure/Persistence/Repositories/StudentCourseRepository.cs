@@ -1,6 +1,4 @@
-﻿
-using EduCore.BackEnd.Domain.Aggregates.StudentAggregate;
-using EduCore.BackEnd.Domain.Contracts;
+﻿using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using EduCore.BackEnd.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;

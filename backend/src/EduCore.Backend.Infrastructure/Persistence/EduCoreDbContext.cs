@@ -11,6 +11,7 @@ using EduCore.BackEnd.Domain.Aggregates.InstructorAggregate;
 using EduCore.BackEnd.Domain.Aggregates.ReviewAggregate;
 using EduCore.BackEnd.Domain.Aggregates.SaleAggregate;
 using EduCore.BackEnd.Domain.Aggregates.StudentAggregate;
+using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using EduCore.BackEnd.Domain.Aggregates.UserProfileAggregate;
 using EduCore.BackEnd.Domain.Entities;
 using EduCore.BackEnd.Infrastructure.Authentication;

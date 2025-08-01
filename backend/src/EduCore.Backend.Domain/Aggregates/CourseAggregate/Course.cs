@@ -6,6 +6,7 @@ using EduCore.BackEnd.Domain.Aggregates.EnrollmentAggregate;
 using EduCore.BackEnd.Domain.Aggregates.InstructorAggregate;
 using EduCore.BackEnd.Domain.Aggregates.SaleAggregate;
 using EduCore.BackEnd.Domain.Aggregates.StudentAggregate;
+using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using EduCore.BackEnd.Domain.Aggregates.UserProfileAggregate;
 using EduCore.BackEnd.Domain.Common.Entities;
 using EduCore.BackEnd.Domain.Common.Enumerations;

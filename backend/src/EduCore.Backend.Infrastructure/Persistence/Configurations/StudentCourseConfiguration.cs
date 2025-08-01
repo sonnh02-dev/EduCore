@@ -1,4 +1,4 @@
-﻿using EduCore.BackEnd.Domain.Aggregates.StudentAggregate;
+﻿using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

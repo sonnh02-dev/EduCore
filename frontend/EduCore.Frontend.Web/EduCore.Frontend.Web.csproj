@@ -9,10 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Areas\Instructor\Pages\Profile\" />
     <Folder Include="Areas\Admin\Pages\Courses\" />
     <Folder Include="Areas\Admin\Pages\Shared\Components\" />
@@ -21,6 +17,10 @@
     <Folder Include="Pages\Shared\Components\" />
     <Folder Include="Pages\Shared\Layouts\" />
     <Folder Include="Pages\Shared\Partials\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EduCore.Frontend.Shared\EduCore.Frontend.Shared.csproj" />
   </ItemGroup>
 
 </Project>

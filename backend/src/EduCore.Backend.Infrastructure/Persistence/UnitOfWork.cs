@@ -6,6 +6,7 @@ using EduCore.BackEnd.Domain.Aggregates.CourseAggregate;
 using EduCore.BackEnd.Domain.Aggregates.EnrollmentAggregate;
 using EduCore.BackEnd.Domain.Aggregates.ReviewAggregate;
 using EduCore.BackEnd.Domain.Aggregates.StudentAggregate;
+using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using EduCore.BackEnd.Domain.Common.Repositories;
 using EduCore.BackEnd.Domain.Contracts;
 using EduCore.BackEnd.Infrastructure.Persistence.Repositories;

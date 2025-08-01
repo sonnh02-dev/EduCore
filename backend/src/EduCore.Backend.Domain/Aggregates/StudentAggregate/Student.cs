@@ -1,4 +1,5 @@
 ﻿using EduCore.BackEnd.Domain.Aggregates.EnrollmentAggregate;
+using EduCore.BackEnd.Domain.Aggregates.StudentCourseAggregate;
 using EduCore.BackEnd.Domain.Aggregates.UserProfileAggregate;
 using EduCore.BackEnd.Domain.Common.Entities;
 
