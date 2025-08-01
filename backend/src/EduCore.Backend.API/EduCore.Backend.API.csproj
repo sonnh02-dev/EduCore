@@ -10,6 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="DotNetEnv" Version="3.1.1" />
 		<PackageReference Include="Microsoft.AspNetCore.OData" Version="8.2.5" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
 		  <PrivateAssets>all</PrivateAssets>
@@ -22,12 +23,6 @@
 	  <ProjectReference Include="..\EduCore.Backend.Application\EduCore.Backend.Application.csproj" />
 	  <ProjectReference Include="..\EduCore.Backend.Infrastructure\EduCore.Backend.Infrastructure.csproj" />
 	  <ProjectReference Include="..\EduCore.Backend.SharedKernel\EduCore.Backend.SharedKernel.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Content Update="appsettings.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
 	</ItemGroup>
 
 </Project>

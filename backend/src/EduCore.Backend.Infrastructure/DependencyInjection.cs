@@ -17,7 +17,7 @@ namespace EduCore.BackEnd.Infrastructure
         {
             //services.AddScoped<IPaymentGatewayService, VnPayGatewayService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDbContext<EduCoreDbContext>(option => option.UseSqlServer(configuration.GetConnectionString("MyDatabase")));
+            services.AddDbContext<EduCoreDbContext>(option => option.UseSqlServer(Environment.GetEnvironmentVariable("MY_DATABASE")));
             services.AddAutoMapper(typeof(CourseMapping).Assembly);
 
             services.AddIdentity<UserAccount, IdentityRole<int>>()

@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.OData;
 using Microsoft.OData.ModelBuilder;
 using EduCore.BackEnd.Infrastructure;
-using EduCore.BackEnd.Application.DTOs.Response;
 using EduCore.BackEnd.Application.Module.Certificates;
 using EduCore.BackEnd.Application.Module.Categories;
 using EduCore.BackEnd.Application.Module.Courses.DTOs;
@@ -27,8 +26,11 @@ modelBuilder.EntitySet<CertificateResponse>("Certificate");
 modelBuilder.EntitySet<PaymentRequest>("Checkout");
 modelBuilder.EntitySet<EnrollmentDetailDTO>("Enrollment");
 modelBuilder.EntitySet<StudentDTO>("Student");
-modelBuilder.EntitySet<UserDTO>("User");
+//modelBuilder.EntitySet<UserDTO>("User");
 builder.Services.AddControllers().AddOData(opt => opt.Select().Filter().SetMaxTop(100).Expand().OrderBy().Count().AddRouteComponents("odata", modelBuilder.GetEdmModel()));
+
+DotNetEnv.Env.Load();
+builder.Configuration.AddEnvironmentVariables();
 
 
 //cors
@@ -38,7 +40,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
         policy
-            .WithOrigins(config.GetValue<string>("Frontend_url") ?? "http://localhost:3000") // fallback URL
+            .WithOrigins(Environment.GetEnvironmentVariable("FRONTEND_URL")?? "http://localhost:3000") 
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
